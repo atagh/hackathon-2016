@@ -1,0 +1,13 @@
+title : hackathons-2016
+
+safe: true
+lsi: false
+pygments: false
+auto: true
+
+source: .
+destination: _deploy 
+
+production_url : https://ghe.megaleo.com/pages/PAR/hackathon-2016/
+
+BASE_PATH : https://ghe.megaleo.com/pages/PAR/hackathon-2016/
