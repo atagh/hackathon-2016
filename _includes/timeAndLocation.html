@@ -27,7 +27,7 @@ SOFTWARE.
             if (window.ifaddtocalendar == undefined) { window.ifaddtocalendar = 1;
                 var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
                 s.type = 'text/javascript';s.charset = 'UTF-8';s.async = true;
-                s.src = ('https:' == window.location.protocol ? 'https' : 'http')+'://addtocalendar.com/atc/1.5/atc.min.js';
+                s.src = 'js/addToCal.js';
                 var h = d[g]('body')[0];h.appendChild(s); }})();
 </script>
 
@@ -43,7 +43,8 @@ SOFTWARE.
         <div class="span5" style="background-color:#ECECEC; padding: 13px; height: 600px;">  
             <div style="padding-left: 35px; padding-right: 35px;">   
             <h4>When</h4>
-            <p>Please see below for a detailed breakdown of the event and activities...</p>
+            <p>Please see below for a tentative agenda of the event.</p>
+            <p><strong>NOTE:</strong> Actual times and events will be updated over the course of the next several weeks.</p>
             <p><strong>December 1, 2016 through December 2, 2016</strong></p>
             <br />
             <p><strong>Thursday, December 1 2016</strong></p>
@@ -78,7 +79,8 @@ SOFTWARE.
                     <td>Beaverton</td>
                     <td>Bla</td>
                     <td>
-                        <span class="addtocalendar atc-style-blue">
+                        <span class="addtocalendar atc-style-blue"
+                        data-calendars="iCalendar, Google Calendar, Outlook"
                             <var class="atc_event">
                                 <var class="atc_date_start">2016-12-01 14:00:00</var>
                                 <var class="atc_date_end">2016-12-02 14:00:00</var>
@@ -121,25 +123,7 @@ SOFTWARE.
                                 <var class="atc_timezone">Europe/Dublin</var>
                                 <var class="atc_title">Hackathon 2016</var>
                                 <var class="atc_description">Code Hard!</var>
-                                <var class="atc_location">Dublin room</var>
-                                <var class="atc_organizer">Hackathon Organizing Team</var>
-                                <var class="atc_organizer_email">Hackathon@workday.com</var>
-                            </var>
-                        </span>
-                    </td>
-                </tr>
-                <tr>
-                    <td>London</td>
-                    <td>Bla</td>
-                    <td>
-                        <span class="addtocalendar atc-style-blue">
-                            <var class="atc_event">
-                                <var class="atc_date_start">2016-12-01 14:00:00</var>
-                                <var class="atc_date_end">2016-12-02 14:00:00</var>
-                                <var class="atc_timezone">Europe/London</var>
-                                <var class="atc_title">Hackathon 2016</var>
-                                <var class="atc_description">Code Hard!</var>
-                                <var class="atc_location">London room</var>
+                                <var class="atc_location">Speir and Others</var>
                                 <var class="atc_organizer">Hackathon Organizing Team</var>
                                 <var class="atc_organizer_email">Hackathon@workday.com</var>
                             </var>
@@ -194,6 +178,24 @@ SOFTWARE.
                                 <var class="atc_title">Hackathon 2016</var>
                                 <var class="atc_description">Code Hard!</var>
                                 <var class="atc_location">Pleasanton room</var>
+                                <var class="atc_organizer">Hackathon Organizing Team</var>
+                                <var class="atc_organizer_email">Hackathon@workday.com</var>
+                            </var>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Reading</td>
+                    <td>Bla</td>
+                    <td>
+                        <span class="addtocalendar atc-style-blue">
+                            <var class="atc_event">
+                                <var class="atc_date_start">2016-12-01 14:00:00</var>
+                                <var class="atc_date_end">2016-12-02 14:00:00</var>
+                                <var class="atc_timezone">Europe/London</var>
+                                <var class="atc_title">Hackathon 2016</var>
+                                <var class="atc_description">Code Hard!</var>
+                                <var class="atc_location">Reading room</var>
                                 <var class="atc_organizer">Hackathon Organizing Team</var>
                                 <var class="atc_organizer_email">Hackathon@workday.com</var>
                             </var>
@@ -274,11 +276,6 @@ SOFTWARE.
                 </tr>
             </table>
             </div>
-            <!--
-            <p>123 There Street<br />San Francisco, CA 94110</p> 
-            <p><iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=777+Florida+St.,+San+Francisco,+CA,+94110&amp;ie=UTF8&amp;hq=&amp;hnear=777+Florida+St,+San+Francisco,+California+94110&amp;gl=us&amp;ll=37.759579,-122.410761&amp;spn=0.010467,0.022724&amp;t=m&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=777+Florida+St.,+San+Francisco,+CA,+94110&amp;ie=UTF8&amp;hq=&amp;hnear=777+Florida+St,+San+Francisco,+California+94110&amp;gl=us&amp;ll=37.759579,-122.410761&amp;spn=0.010467,0.022724&amp;t=m&amp;z=14&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small></p>
-            <br /><br />
-            -->
             </div>              
         </div>                            
     </div>  
