@@ -38,17 +38,15 @@
         }  
     .fma
         {
-      background-image:url('images/HackathonBackGround.png'); 
-      <!--        width: 960px; -->
-        width: 960px; 
-        height: 410px; 
-<!--       height: 167px; -->
+      background-image:url('images/workday.png'); 
+        width: 960px;
+        height: 167px; 
         font-size: 32px;
         font-weight: bold;
         color: #5A5B5D;
         text-align: center;
         align-content: center;
-        margin-left: 100px;
+        margin-left: 25px;
 
         }  
     .fma2
@@ -59,12 +57,13 @@
         text-align: center;
         }          
     </style>
-    <link href="http://kinlane.github.io/hack-weekends-guide/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <link href="http://addtocalendar.com/atc/1.5/atc-style-blue.css" rel="stylesheet" type="text/css">
 
   </head>
 
@@ -88,7 +87,7 @@
                         <li><a href="#TimeDirections">Time & Locations</a></li>
                         <li><a href="#Prizes">Prizes</a></li>
                         <li><a href="#Register">Register</a></li>
-                        <li><a href="#Judges">Judges</a></li>
+                        <li><a href="#Judging">Judging</a></li>
                         <li><a href="#Sponsors">Sponsors</a></li>
                         <li><a href="https://docs.google.com/document/d/1pPh9DI0JwYHZjSz5_cqcyxE5PMXMBX9FXNNDjkL0gZc/edit">FAQ</a></li>
                         <li><a href="#Contact">Contact</a></li>
@@ -110,19 +109,54 @@
             <p>It's been about a year since we held our last global hackathon and we're excited to be hosting our second one.  Details are provided in the attached FAQ.  Get your creative juices flowing, it's going to be a fun ride!</p>
         </div>   
         <div class="span4" style="padding-left: 175px;">       
-             <a href="http://hackweekends.com/" target="_blank"><img src="images/hackathon.png" style="" /></a>
+             <a href="https://ghe.megaleo.com/pages/PAR/hackathon-2016/" target="_blank"><img src="images/hackathon-2016.png" style="" /></a>
         </div>                                
     </div>  
     
 
-     <div class="row">
+ 
+<!--   
+The MIT License (MIT)
+
+Copyright (c) 2015 AddToCalendar
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<script type="text/javascript">(function () {
+            if (window.addtocalendar)if(typeof window.addtocalendar.start == "function")return;
+            if (window.ifaddtocalendar == undefined) { window.ifaddtocalendar = 1;
+                var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+                s.type = 'text/javascript';s.charset = 'UTF-8';s.async = true;
+                s.src = ('https:' == window.location.protocol ? 'https' : 'http')+'://addtocalendar.com/atc/1.5/atc.min.js';
+                var h = d[g]('body')[0];h.appendChild(s); }})();
+</script>
+
+<!-- All references to the AddToCalendar related to the license above -->
+
+    <div class="row">
         <div class="span8">       
             <br /><br />
         </div>                     
     </div>                  
     <a name="TimeDirections"></a>
     <div class="row">  
-        <div class="span5" style="background-color:#ECECEC; padding: 13px; height: 550px;">  
+        <div class="span5" style="background-color:#ECECEC; padding: 13px; height: 600px;">  
             <div style="padding-left: 35px; padding-right: 35px;">   
             <h4>When</h4>
             <p>Please see below for a detailed breakdown of the event and activities...</p>
@@ -143,11 +177,9 @@
             <li>3:00 PM - Judging</li>
             <li>4:00 PM - It's a wrap!</li>
             </ul>
-            <p>Provide any other details that might be helpful, as well as add to calendar widget</p>
-            <p align="center"><img src="images/Add-To-Calendar.png" style="" /></p>
             </div>                
         </div>   
-        <div class="span5" style="background-color:#ECECEC; padding: 13px; height: 550px;">  
+        <div class="span5" style="background-color:#ECECEC; padding: 13px; height: 600px;">  
             <div style="padding-left: 35px; padding-right: 35px;"> 
             <h4>Locations</h4>
             <p>Please see below for a list of Workday offices and locations where we are hosting the hackathon.</p>
@@ -155,15 +187,206 @@
             <table>
                 <tr>
                     <th>Office</th>
-                    <th>Location</th>
+                    <th>Room(s)</th>
+                    <th></th>
                 </tr>
                 <tr>
-                    <td>Pleasanton</td>
+                    <td>Beaverton</td>
                     <td>Bla</td>
+                    <td>
+                        <span class="addtocalendar atc-style-blue">
+                            <var class="atc_event">
+                                <var class="atc_date_start">2016-12-01 14:00:00</var>
+                                <var class="atc_date_end">2016-12-02 14:00:00</var>
+                                <var class="atc_timezone">America/Los_Angeles</var>
+                                <var class="atc_title">Hackathon 2016</var>
+                                <var class="atc_description">Code Hard!</var>
+                                <var class="atc_location">beaverton room</var>
+                                <var class="atc_organizer">Hackathon Organizing Team</var>
+                                <var class="atc_organizer_email">Hackathon@workday.com</var>
+                            </var>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Boulder</td>
+                    <td>Bla</td>
+                    <td>
+                        <span class="addtocalendar atc-style-blue">
+                            <var class="atc_event">
+                                <var class="atc_date_start">2016-12-01 14:00:00</var>
+                                <var class="atc_date_end">2016-12-02 14:00:00</var>
+                                <var class="atc_timezone">America/Denver</var>
+                                <var class="atc_title">Hackathon 2016</var>
+                                <var class="atc_description">Code Hard!</var>
+                                <var class="atc_location">Denver room</var>
+                                <var class="atc_organizer">Hackathon Organizing Team</var>
+                                <var class="atc_organizer_email">Hackathon@workday.com</var>
+                            </var>
+                        </span>
+                    </td>
                 </tr>
                 <tr>
                     <td>Dublin</td>
                     <td>Bla</td>
+                    <td>
+                        <span class="addtocalendar atc-style-blue">
+                            <var class="atc_event">
+                                <var class="atc_date_start">2016-12-01 14:00:00</var>
+                                <var class="atc_date_end">2016-12-02 14:00:00</var>
+                                <var class="atc_timezone">Europe/Dublin</var>
+                                <var class="atc_title">Hackathon 2016</var>
+                                <var class="atc_description">Code Hard!</var>
+                                <var class="atc_location">Dublin room</var>
+                                <var class="atc_organizer">Hackathon Organizing Team</var>
+                                <var class="atc_organizer_email">Hackathon@workday.com</var>
+                            </var>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>London</td>
+                    <td>Bla</td>
+                    <td>
+                        <span class="addtocalendar atc-style-blue">
+                            <var class="atc_event">
+                                <var class="atc_date_start">2016-12-01 14:00:00</var>
+                                <var class="atc_date_end">2016-12-02 14:00:00</var>
+                                <var class="atc_timezone">Europe/London</var>
+                                <var class="atc_title">Hackathon 2016</var>
+                                <var class="atc_description">Code Hard!</var>
+                                <var class="atc_location">London room</var>
+                                <var class="atc_organizer">Hackathon Organizing Team</var>
+                                <var class="atc_organizer_email">Hackathon@workday.com</var>
+                            </var>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Munich</td>
+                    <td>Bla</td>
+                    <td>
+                        <span class="addtocalendar atc-style-blue">
+                            <var class="atc_event">
+                                <var class="atc_date_start">2016-12-01 14:00:00</var>
+                                <var class="atc_date_end">2016-12-02 14:00:00</var>
+                                <var class="atc_timezone">Europe/Berlin</var>
+                                <var class="atc_title">Hackathon 2016</var>
+                                <var class="atc_description">Code Hard!</var>
+                                <var class="atc_location">Munich room</var>
+                                <var class="atc_organizer">Hackathon Organizing Team</var>
+                                <var class="atc_organizer_email">Hackathon@workday.com</var>
+                            </var>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Paris</td>
+                    <td>Bla</td>
+                    <td>
+                        <span class="addtocalendar atc-style-blue">
+                            <var class="atc_event">
+                                <var class="atc_date_start">2016-12-01 14:00:00</var>
+                                <var class="atc_date_end">2016-12-02 14:00:00</var>
+                                <var class="atc_timezone">Europe/Paris</var>
+                                <var class="atc_title">Hackathon 2016</var>
+                                <var class="atc_description">Code Hard!</var>
+                                <var class="atc_location">Paris room</var>
+                                <var class="atc_organizer">Hackathon Organizing Team</var>
+                                <var class="atc_organizer_email">Hackathon@workday.com</var>
+                            </var>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pleasanton</td>
+                    <td>Bla</td>
+                    <td>
+                        <span class="addtocalendar atc-style-blue">
+                            <var class="atc_event">
+                                <var class="atc_date_start">2016-12-01 14:00:00</var>
+                                <var class="atc_date_end">2016-12-02 14:00:00</var>
+                                <var class="atc_timezone">America/Los_Angeles</var>
+                                <var class="atc_title">Hackathon 2016</var>
+                                <var class="atc_description">Code Hard!</var>
+                                <var class="atc_location">Pleasanton room</var>
+                                <var class="atc_organizer">Hackathon Organizing Team</var>
+                                <var class="atc_organizer_email">Hackathon@workday.com</var>
+                            </var>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Salt Lake City</td>
+                    <td>Bla</td>
+                    <td>
+                        <span class="addtocalendar atc-style-blue">
+                            <var class="atc_event">
+                                <var class="atc_date_start">2016-12-01 14:00:00</var>
+                                <var class="atc_date_end">2016-12-02 14:00:00</var>
+                                <var class="atc_timezone">America/Denver</var>
+                                <var class="atc_title">Hackathon 2016</var>
+                                <var class="atc_description">Code Hard!</var>
+                                <var class="atc_location">Salt Lake City room</var>
+                                <var class="atc_organizer">Hackathon Organizing Team</var>
+                                <var class="atc_organizer_email">Hackathon@workday.com</var>
+                            </var>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>San Francisco</td>
+                    <td>Bla</td>
+                    <td>
+                        <span class="addtocalendar atc-style-blue">
+                            <var class="atc_event">
+                                <var class="atc_date_start">2016-12-01 14:00:00</var>
+                                <var class="atc_date_end">2016-12-02 14:00:00</var>
+                                <var class="atc_timezone">America/Los_Angeles</var>
+                                <var class="atc_title">Hackathon 2016</var>
+                                <var class="atc_description">Code Hard!</var>
+                                <var class="atc_location">SF room</var>
+                                <var class="atc_organizer">Hackathon Organizing Team</var>
+                                <var class="atc_organizer_email">Hackathon@workday.com</var>
+                            </var>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>San Mateo</td>
+                    <td>Bla</td>
+                    <td>
+                        <span class="addtocalendar atc-style-blue">
+                            <var class="atc_event">
+                                <var class="atc_date_start">2016-12-01 14:00:00</var>
+                                <var class="atc_date_end">2016-12-02 14:00:00</var>
+                                <var class="atc_timezone">America/Los_Angeles</var>
+                                <var class="atc_title">Hackathon 2016</var>
+                                <var class="atc_description">Code Hard!</var>
+                                <var class="atc_location">San Mateo room</var>
+                                <var class="atc_organizer">Hackathon Organizing Team</var>
+                                <var class="atc_organizer_email">Hackathon@workday.com</var>
+                            </var>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Victoria</td>
+                    <td>Bla</td>
+                    <td>
+                        <span class="addtocalendar atc-style-blue">
+                            <var class="atc_event">
+                                <var class="atc_date_start">2016-12-01 14:00:00</var>
+                                <var class="atc_date_end">2016-12-02 14:00:00</var>
+                                <var class="atc_timezone">America/Vancouver</var>
+                                <var class="atc_title">Hackathon 2016</var>
+                                <var class="atc_description">Code Hard!</var>
+                                <var class="atc_location">Victoria room</var>
+                                <var class="atc_organizer">Hackathon Organizing Team</var>
+                                <var class="atc_organizer_email">Hackathon@workday.com</var>
+                            </var>
+                        </span>
+                    </td>
                 </tr>
             </table>
             </div>
@@ -184,22 +407,20 @@
     <a name="Prizes"></a>
     <div class="row"> 
         <div class="span4" style="padding-left: 50px; padding-top:25px;">       
-            <img src="images/Prize.png" style="" />
+            <img src="images/amazon.jpg" style="" />
         </div>   
         <div class="span4" style="padding-left: 100px; padding-top:25px;">       
             <h4>Prizes:</h4>
             <p><strong>Main Prizes</strong></p>
-            <p>1st Prize - $500.00<br />
-            2nd Prize - $250.00<br />
-            3rd Prize - $100.00<br />
-            Sponsor Prizes</p>
+            <ul>
+            <li>1st Prize - $100 Amazon Gift Card</li>
+            <li>2nd Prize - $75 Amazon Gift Card</li>
+            <li>3rd Prize - $50 Amazon Gift Card</li>
+            </ul>
+            and...  all winners will win a lunch outing with the judges!
             <br />
-            <p>Best Use of Sponsor 1 - $100.00 Amazon Gift Card<br />
-            Best Use of Sponsor 2 - $100.00 Apple Gift Card<br />
-            Best Use of Sponsor 3 - $200.00 Amazon Kindle<br />
-            Bonus Prizes</p>
             <br />
-            <p>Best Outfit - $500.00 Amazon Gift Card</p>           
+            <p>All Participants, Volunteers, Organizers and Judges will receive what will surely be highly coveted a hackathon 2016 t-shirt.</p>           
         </div>                                
     </div>   
 
@@ -211,7 +432,7 @@
     </div>          
      <a name="Register"></a>
     <div class="row">  
-        <div class="span10" style="background-color:#ECECEC; padding: 25px; height: 200px;">
+        <div class="span10" style="background-color:#ECECEC; padding: 25px; height: 150px;">
             <div class="fma2">  
                 <br />
                 <p>What Are You Waiting For?</p>
@@ -232,10 +453,10 @@
         <div class="span3">
             
         </div>  
-        <div class="span4" style="padding-left: 30px;">
+        <div class="span10" style="padding-left: 30px;" align="center">
             <h4>Judging Criteria</h4>
-            <p>Hacks will be judged based on the criteria below and weighted accordingly.</p>
-            <ul style="font-size: 18px; font-weight: bold; list-style:none;" >
+            <p>Your projects will be judged based on the criteria below and weighted accordingly.</p>
+            <ul style="font-size: 18px; font-weight: bold; list-style:none;">
                 <li>20% - Technical Difficulty</li>
                 <li>40% - Crowd Vote</li>
                 <li>20% - Wow Factor</li>
@@ -264,6 +485,7 @@
             </div>            
         </div>                            
     </div>         
+
 
      <div class="row">
         <div class="span8">       
@@ -310,24 +532,7 @@
 
  
     <!--
-    
-    <div class="row">
-        <div class="span8">       
-            <br />
-        </div>                     
-    </div>          
-     <a name="Register"></a>
-    <div class="row">  
-        <div class="span10" style="background-color:#ECECEC; padding: 25px; height: 200px;">
-            <div class="fma2">  
-                <br />
-                <p>What Are You Waiting For</p>
-                <p>Follow this link to help you get started on Eventbrite</p>
-                <p align="center"><img src="images/Register-With-Eventbrite.png" style="" /></p>  
-            </div>            
-        </div>                            
-    </div>  
-    
+        
     
     <div class="row">
         <div class="span8">       
@@ -350,32 +555,20 @@
             </div>
         </div>
     </div>   
-                                                                    
+                    -->
+                                                
     <footer>
             
         <div class="row">  
-            <div class="span3" style="padding: 25px;">  
-                <div style="text-align:center;">   
-                    <p>Hack Weekends Guide is Maintained by <a href="http://kinlane.com" target="_blank">Kin Lane</a></p>  
-                    <p><a href="http://apievangelist.com" target="_blank"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist/api-evangelist-logo-400.png" width="200" /></a></p>            
-                </div>                
-            </div>   
-            <div class="span3" style="padding: 25px;">  
-                <div style="text-align:center;">   
-                    <p>Hack Weekends Guide is Supported by <a href="http://hackweekends.com" target="_blank">Hack Weekends</a></p>              
-                    <p><a href="http://hackweekends.com" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/hackweekends/hack-weekends-logo-2.png" width="100" /></a></p>            
-                </div>                
-            </div>  
-            <div class="span3" style="padding: 25px;">  
-                <div style="text-align:center;">   
-                    <p>Hack Weekends Guide is Published by <a href="http://pages.github.com/" target="_blank">Github Pages</p>
-                    <p><a href="http://pages.github.com" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/github/Github-Pages.png" width="100" /></a></p>                          
+            <div class="span10" style="padding: 25px;">  
+                <div style="text-align:left;">   
+                    <p>This hackathon page is published by <a href="http://pages.github.com" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/github/Github-Pages.png" width="100" /></a> and was forked from the <a href="https://github.com/kinlane/hack-weekends-guide">hackathon weekend guide</a> provided by <a href="http://kinlane.com" target="_blank">Kin Lane</a> and is licensed under <a href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons</a> to keep alignment with contributors and a healthier global hackathon community.</p>
+                    </p>                          
                 </div>                
             </div>                                        
         </div>              
 
     </footer>
--->
 </div>        
 
 
