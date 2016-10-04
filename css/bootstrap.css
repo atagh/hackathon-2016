@@ -240,23 +240,6 @@ a:hover {
   text-decoration: underline;
 }
 
-<!-- at additons -->
-table, td, th {
-    border: 1px solid black;
-}
-
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-th {
-    height: 50px;
-}
-
-<!-- end at additions -->
-
-
 .img-rounded {
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
@@ -1992,7 +1975,7 @@ legend + .control-group {
 table {
   max-width: 100%;
   background-color: transparent;
-  border: 1px solid #ddd;
+  border: 1px solid #000;
   text-align: left;
 }
 
@@ -2007,16 +1990,16 @@ table {
   line-height: 20px;
   text-align: left;
   vertical-align: top;
-  border: 1px solid #ddd;
+  border: 1px solid #000;
 }
 
 .table th {
-  border: 1px solid #ddd;
+  border: 1px solid #000;
   font-weight: bold;
 }
 
 .table tr {
-  border: 1px solid #ddd;
+  border: 1px solid #000;
 }
 
 .table thead th {
@@ -2058,6 +2041,11 @@ table {
 .table-bordered th,
 .table-bordered td {
   border-left: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
+.table-bordered tr {
+  border-bottom: 1px solid #dddddd;
 }
 
 .table-bordered caption + thead tr:first-child th,
